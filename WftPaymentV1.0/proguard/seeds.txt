@@ -1,0 +1,33 @@
+cn.swiftpass.wxpay.wxapi.WXPayEntryActivity
+cn.swiftpass.wxpay.wxapi.WXPayEntryActivity: WXPayEntryActivity()
+cn.swiftpass.wxspay.PayMainActivity
+cn.swiftpass.wxspay.PayMainActivity: PayMainActivity()
+com.switfpass.pay.MainApplication
+com.switfpass.pay.activity.BasePayActivity
+com.switfpass.pay.activity.BasePayActivity: BasePayActivity()
+com.switfpass.pay.activity.BasePayActivity: void showNewLoading(boolean,java.lang.String)
+com.switfpass.pay.activity.BasePayActivity: void dismissMyLoading()
+com.switfpass.pay.activity.PayPlugin
+com.switfpass.pay.activity.PayPlugin: PayPlugin()
+com.switfpass.pay.activity.PayPlugin: void buildPayParams(java.lang.StringBuilder,java.util.Map,boolean)
+com.switfpass.pay.activity.PayPlugin: java.lang.String urlEncode(java.lang.String)
+com.switfpass.pay.activity.PayPlugin: void unifiedSacndPay(android.app.Activity,com.switfpass.pay.bean.RequestMsg)
+com.switfpass.pay.activity.PayPlugin: void unifiedAppPay(android.app.Activity,com.switfpass.pay.bean.RequestMsg)
+com.switfpass.pay.activity.PayPlugin: void unifiedH5Pay(android.app.Activity,com.switfpass.pay.bean.RequestMsg)
+com.switfpass.pay.activity.PayPlugin: void showLoading(android.content.Context,java.lang.String)
+com.switfpass.pay.activity.PayPlugin: void unifiedMicroPay(android.app.Activity,com.switfpass.pay.bean.RequestMsg)
+com.switfpass.pay.activity.PayPlugin: void pay(android.app.Activity,com.switfpass.pay.bean.RequestMsg)
+com.switfpass.pay.activity.PayPlugin: java.lang.String createSign(java.lang.String,java.util.Map)
+com.switfpass.pay.activity.PayPlugin: void onClick(android.view.View)
+com.switfpass.pay.activity.PayResultActivity
+com.switfpass.pay.activity.PayResultActivity: PayResultActivity()
+com.switfpass.pay.activity.PaySDKCaptureActivity
+com.switfpass.pay.activity.QQWapPayWebView
+com.switfpass.pay.activity.QrcodeActivity
+com.switfpass.pay.activity.zxing.ViewfinderView
+com.switfpass.pay.activity.zxing.ViewfinderView: ViewfinderView(android.content.Context,android.util.AttributeSet)
+com.switfpass.pay.activity.zxing.decoding.PayCaptureActivityHandler$State: com.switfpass.pay.activity.zxing.decoding.PayCaptureActivityHandler$State[] values()
+com.switfpass.pay.activity.zxing.decoding.PayCaptureActivityHandler$State: com.switfpass.pay.activity.zxing.decoding.PayCaptureActivityHandler$State valueOf(java.lang.String)
+com.switfpass.pay.enmu.LocalRetCode: com.switfpass.pay.enmu.LocalRetCode[] values()
+com.switfpass.pay.enmu.LocalRetCode: com.switfpass.pay.enmu.LocalRetCode valueOf(java.lang.String)
+com.switfpass.pay.wxapi.WXPayEntryActivity
