@@ -1,0 +1,20 @@
+一、
+wftsdk5.0.jar
+libammsdk.jar --是微信最新sdk
+这两个必须引入
+
+
+二、
+demo中打包生成apk文件时，必须引入密钥文件demo.keystore
+别名：demo
+密码是：android
+否则demo有可能无法正常调起支付
+
+三、
+
+商户号：'755437000006'
+密钥：'7daa4babae15ae17eee90c9e'
+appid：wx2a5538052969956e
+这是测试用的商户号，密钥，appid，只能用于我们的demo
+当商户正式集成到自己app应用中时，要用正式商户号，正式的appid，也必须在微信开放平台做好相关的设置（Android需要用商户自己的包名和签名，并用自己的签名文件打包）
+
